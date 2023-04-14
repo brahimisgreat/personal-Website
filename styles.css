@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    height: 25%;
+    letter-spacing:0.05em;
+    
+}
+
+.inline, span, .title{
+    display: inline-block;
+    
+   
+}
+.inline{
+    margin-left: 1em;
+    color: lightgreen;
+}
+
+.line{
+    color: rgb(164, 164, 164);
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.title{
+    position: relative;
+    top: 0.5em;
+}
+/* Section 2 of navbar */
+
+.section2, ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin-right: 1.5em;
+    font-size: 1.1em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: hotpink;
+    transition: 0.4s;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:active{
+    text-decoration: underline;
+}
+
+/* ALL CSS PROPERTIES for MAIN */
+
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    position: relative;
+    top: 10em;
+    left: 10em;
+    gap: 20px;
+    
+}
+
+img{
+    width: 25%;
+    border-radius: 50%;
+    position: relative;
+    right: 10em;
+    top: 1em;
+}
+
+.greeting{
+    font-size: 1em;
+}
+
+.name{
+    font-size: 4em;
+}
+
+.status{
+    color: lightgreen;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.d-script{
+    font-size: 1.0em;
+    color: grey;
+    font-weight: 100;
+}
+
+.butt-1{
+    background-color: lightgreen;
+    border-radius: 50%;
+    width: 35%;
+    height: 4em;
+    border: solid lightgreen 3px;
+}
+
+form{
+    display: grid;
+    border: solid 3px red;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px;
+    position: relative;
+    left: 70%;
+    bottom:10em ;
+    width: max-content;
+    
+}
