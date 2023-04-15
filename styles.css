@@ -33,6 +33,8 @@ nav{
     position: relative;
     top: 0.5em;
 }
+
+
 /* Section 2 of navbar */
 
 .section2, ul{
@@ -48,12 +50,12 @@ a{
     color: white;
 }
 a:hover{
-    color: hotpink;
-    transition: 0.4s;
+    color: yellow;
+    transition: 0.3s;
 }
 
 a:visited{
-    color: blue;
+    color: rgb(82, 82, 85);
 }
 
 a:active{
@@ -103,21 +105,41 @@ img{
 }
 
 .butt-1{
+    display: flex;
+   justify-content: center;
+    align-items: center;
     background-color: lightgreen;
     border-radius: 50%;
     width: 35%;
     height: 4em;
     border: solid lightgreen 3px;
 }
+.butt-1 a{
+    font-size: 1em;
+    font-weight: 700;
+}
 
 form{
-    display: grid;
-    border: solid 3px red;
-    grid-template-columns: 100px 100px;
-    grid-template-rows: 100px;
+    /*  */
+    display: flex;
     position: relative;
     left: 70%;
     bottom:10em ;
-    width: max-content;
+    flex-direction: column;
+    gap: 10px;
+    width: 20em;
+    border: solid red 3px;
+    
+    
     
 }
+/* used to align email input box */
+.box4-email input{
+    margin-left: 5%;
+}
+
+/* use to aglin birth input box */
+.box4-birth input{
+    margin-left:3%;
+}
+

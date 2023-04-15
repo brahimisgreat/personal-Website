@@ -52,29 +52,40 @@
             <img src="/images/picofme.jpg" alt="Picture of Brahim Coulibaly">
         </section>
 
-        <input class="butt-1" type="button" value="Learn More">
-
+    <button  class="butt-1">    <a  href="about.html">Learn More</a></button>
+        
     </main>
 
-    <form action="">
+    <form >
         
         <div>
-        <label for="fname">First Name</label>
-        <input type="text" >
+            <label for="fname">First-Name</label>
+            <input type="text" name="fname" required>
         </div>
+
+
         <div>
-        <label for="lname">Last Name</label>
-        <input type="text">
+            <label for="lname">Last Name</label>
+            <input type="text" required>
         </div>
-        <div>
-        <label for="email">email</label>
-        <input type="email">
+
+
+        <div class="box4-email">
+            <ion-icon name="mail-sharp"></ion-icon>
+            <label for="email">Email</label>
+            <input type="email"required>
         </div>
-        <div>
-        <label for="b-year">Birth year</label>
-        <input type="number" name="" id="">
+
+
+        
+
+       <div>
+            <input type="submit">
+            <input type="reset">
        </div>
 
     </form>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
